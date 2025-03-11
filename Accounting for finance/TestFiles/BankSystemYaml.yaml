@@ -1,0 +1,490 @@
+- EntityType: BankAccount
+  id: 00000000-0000-0000-0000-000000000001
+  name: Основной счет
+  balance: 100000.00
+  type: ''
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: BankAccount
+  id: 00000000-0000-0000-0000-000000000006
+  name: Резервный счет
+  balance: 50000.00
+  type: ''
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: BankAccount
+  id: 00000000-0000-0000-0000-000000000007
+  name: Накопительный счет
+  balance: 200000.00
+  type: ''
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: BankAccount
+  id: 00000000-0000-0000-0000-000000000008
+  name: Карточка на еду
+  balance: 30000.00
+  type: ''
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: BankAccount
+  id: 00000000-0000-0000-0000-000000000009
+  name: Счёт для отпусков
+  balance: 1500000.00
+  type: ''
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: BankAccount
+  id: 00000000-0000-0000-0000-000000000010
+  name: Зарплатный счёт
+  balance: 2500000.00
+  type: ''
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: Category
+  id: 00000000-0000-0000-0000-000000000002
+  name: Кафе
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: Category
+  id: 00000000-0000-0000-0000-000000000003
+  name: Зарплата
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: Category
+  id: 00000000-0000-0000-0000-000000000011
+  name: Транспорт
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: Category
+  id: 00000000-0000-0000-0000-000000000012
+  name: Продукты
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: Category
+  id: 00000000-0000-0000-0000-000000000013
+  name: Аренда
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: Category
+  id: 00000000-0000-0000-0000-000000000014
+  name: Кэшбэк
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: Category
+  id: 00000000-0000-0000-0000-000000000015
+  name: Инвестиции
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: Category
+  id: 00000000-0000-0000-0000-000000000016
+  name: Подарки
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: Category
+  id: 00000000-0000-0000-0000-000000000017
+  name: Здоровье
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: Category
+  id: 00000000-0000-0000-0000-000000000018
+  name: Образование
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: Category
+  id: 00000000-0000-0000-0000-000000000019
+  name: Бонусы
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: Category
+  id: 00000000-0000-0000-0000-000000000020
+  name: Проценты
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000000
+  amount: 0
+  date: 
+  description: ''
+  category_id: 00000000-0000-0000-0000-000000000000
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000004
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000001
+  amount: 300.00
+  date: 2023-03-09T00:00:00.0000000
+  description: Обед
+  category_id: 00000000-0000-0000-0000-000000000002
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000005
+  name: ''
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000001
+  amount: 5000.00
+  date: 2023-03-10T00:00:00.0000000
+  description: Аванс
+  category_id: 00000000-0000-0000-0000-000000000003
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000021
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000006
+  amount: 100.00
+  date: 2023-03-11T00:00:00.0000000
+  description: Купил билет на автобус
+  category_id: 00000000-0000-0000-0000-000000000011
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000022
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000007
+  amount: 250.00
+  date: 2023-03-12T00:00:00.0000000
+  description: Закупка продуктов
+  category_id: 00000000-0000-0000-0000-000000000012
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000023
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000008
+  amount: 70.00
+  date: 2023-03-13T00:00:00.0000000
+  description: Аренда квартиры
+  category_id: 00000000-0000-0000-0000-000000000013
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000024
+  name: ''
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000009
+  amount: 50.00
+  date: 2023-03-14T00:00:00.0000000
+  description: Кэшбэк за покупки
+  category_id: 00000000-0000-0000-0000-000000000014
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000025
+  name: ''
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000010
+  amount: 300.00
+  date: 2023-03-15T00:00:00.0000000
+  description: Дивиденды
+  category_id: 00000000-0000-0000-0000-000000000015
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000026
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000010
+  amount: 200.00
+  date: 2023-03-16T00:00:00.0000000
+  description: Подарок другу
+  category_id: 00000000-0000-0000-0000-000000000016
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000027
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000006
+  amount: 150.00
+  date: 2023-03-17T00:00:00.0000000
+  description: Таблетки
+  category_id: 00000000-0000-0000-0000-000000000017
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000028
+  name: ''
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000007
+  amount: 100.00
+  date: 2023-03-18T00:00:00.0000000
+  description: Бонус за покупку
+  category_id: 00000000-0000-0000-0000-000000000019
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000029
+  name: ''
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000008
+  amount: 20.00
+  date: 2023-03-19T00:00:00.0000000
+  description: Проценты по вкладу
+  category_id: 00000000-0000-0000-0000-000000000020
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000030
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000009
+  amount: 400.00
+  date: 2023-03-20T00:00:00.0000000
+  description: Оплата курсов
+  category_id: 00000000-0000-0000-0000-000000000018
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000031
+  name: ''
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000010
+  amount: 250.00
+  date: 2023-03-21T00:00:00.0000000
+  description: Бонус от работодателя
+  category_id: 00000000-0000-0000-0000-000000000019
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000032
+  name: ''
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000010
+  amount: 60.00
+  date: 2023-03-22T00:00:00.0000000
+  description: Проценты на вклад
+  category_id: 00000000-0000-0000-0000-000000000020
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000033
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000007
+  amount: 300.00
+  date: 2023-03-23T00:00:00.0000000
+  description: Бензин
+  category_id: 00000000-0000-0000-0000-000000000011
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000034
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000008
+  amount: 150.00
+  date: 2023-03-24T00:00:00.0000000
+  description: Обед в кафе
+  category_id: 00000000-0000-0000-0000-000000000002
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000035
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000009
+  amount: 120.00
+  date: 2023-03-25T00:00:00.0000000
+  description: Лекарства
+  category_id: 00000000-0000-0000-0000-000000000017
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000036
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000010
+  amount: 80.00
+  date: 2023-03-26T00:00:00.0000000
+  description: Тетради
+  category_id: 00000000-0000-0000-0000-000000000018
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000037
+  name: ''
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000006
+  amount: 100.00
+  date: 2023-03-27T00:00:00.0000000
+  description: Возврат средств
+  category_id: 00000000-0000-0000-0000-000000000014
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000038
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000007
+  amount: 45.00
+  date: 2023-03-28T00:00:00.0000000
+  description: Печенье
+  category_id: 00000000-0000-0000-0000-000000000012
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000039
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000008
+  amount: 60.00
+  date: 2023-03-29T00:00:00.0000000
+  description: Молоко и хлеб
+  category_id: 00000000-0000-0000-0000-000000000012
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000040
+  name: ''
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000009
+  amount: 500.00
+  date: 2023-03-30T00:00:00.0000000
+  description: Продажа старой книги
+  category_id: 00000000-0000-0000-0000-000000000015
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000041
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000010
+  amount: 600.00
+  date: 2023-03-31T00:00:00.0000000
+  description: Подарок родителям
+  category_id: 00000000-0000-0000-0000-000000000016
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000042
+  name: ''
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000006
+  amount: 1200.00
+  date: 2023-04-01T00:00:00.0000000
+  description: Зарплата часть
+  category_id: 00000000-0000-0000-0000-000000000003
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000043
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000007
+  amount: 75.00
+  date: 2023-04-02T00:00:00.0000000
+  description: Оплата парковки
+  category_id: 00000000-0000-0000-0000-000000000011
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000044
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000008
+  amount: 200.00
+  date: 2023-04-03T00:00:00.0000000
+  description: Оплата аренды жилья
+  category_id: 00000000-0000-0000-0000-000000000013
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000045
+  name: ''
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000009
+  amount: 30.00
+  date: 2023-04-04T00:00:00.0000000
+  description: Кэшбэк по карте
+  category_id: 00000000-0000-0000-0000-000000000014
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000046
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000010
+  amount: 90.00
+  date: 2023-04-05T00:00:00.0000000
+  description: Поездка на такси
+  category_id: 00000000-0000-0000-0000-000000000011
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000047
+  name: ''
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000006
+  amount: 200.00
+  date: 2023-04-06T00:00:00.0000000
+  description: Премия
+  category_id: 00000000-0000-0000-0000-000000000019
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000048
+  name: ''
+  balance: 
+  type: expense
+  bank_account_id: 00000000-0000-0000-0000-000000000007
+  amount: 350.00
+  date: 2023-04-07T00:00:00.0000000
+  description: Покупка продуктов
+  category_id: 00000000-0000-0000-0000-000000000012
+- EntityType: Operation
+  id: 00000000-0000-0000-0000-000000000049
+  name: ''
+  balance: 
+  type: income
+  bank_account_id: 00000000-0000-0000-0000-000000000008
+  amount: 1000.00
+  date: 2023-04-08T00:00:00.0000000
+  description: Перевод от друга
+  category_id: 00000000-0000-0000-0000-000000000015
