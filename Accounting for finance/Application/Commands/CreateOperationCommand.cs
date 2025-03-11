@@ -17,7 +17,6 @@ namespace Accounting_for_finance.application.commands
         private readonly string _description;
         private readonly Guid _categoryId;
 
-        // Если нужно получить созданную операцию
         public Operation CreatedOperation { get; private set; }
 
         public CreateOperationCommand(

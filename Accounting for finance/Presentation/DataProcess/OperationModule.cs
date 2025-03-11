@@ -16,7 +16,6 @@ namespace Accounting_for_finance.presentation.DataProcess
             OperationFacade operationFacade,
             BankAccountFacade bankAccountFacade)
         {
-            // Ввод ID банковского счета
             Guid accountId;
             while (true)
             {
@@ -29,7 +28,6 @@ namespace Accounting_for_finance.presentation.DataProcess
                 break;
             }
 
-            // Ввод ID категории
             Guid categoryId;
             while (true)
             {
@@ -42,7 +40,6 @@ namespace Accounting_for_finance.presentation.DataProcess
                 break;
             }
 
-            // Получаем саму категорию (чтобы понять, доход или расход)
             Category category;
             try
             {
@@ -84,10 +81,8 @@ namespace Accounting_for_finance.presentation.DataProcess
                 break;
             }
 
-            // Ввод описания
             string description = Input.GetString("Введите описание операции: ", "Описание не должно быть пустым.");
 
-            // Создаём команду для создания операции
             var createCommand = new CreateOperationCommand(
                 operationFacade,
                 opType,

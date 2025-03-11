@@ -16,7 +16,6 @@ namespace Accounting_for_finance.application.commands
         private readonly CategoryType _type;
         private readonly string _name;
 
-        // При необходимости можно хранить созданную категорию:
         public Category CreatedCategory { get; private set; }
 
         public CreateCategoryCommand(CategoryFacade categoryFacade, CategoryType type, string name)

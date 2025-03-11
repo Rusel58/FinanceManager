@@ -59,7 +59,6 @@ namespace Accounting_for_finance.application.Analytics
                 var operations = _operationFacade.GetAllOperations()
                     .Where(op => op.Date >= startDate && op.Date <= endDate);
 
-                // Для каждой категории аккумулируем сумму
                 var result = new Dictionary<Guid, decimal>();
 
                 foreach (var op in operations)
@@ -89,7 +88,6 @@ namespace Accounting_for_finance.application.Analytics
                     var categoryId = kvp.Key;
                     decimal sum = kvp.Value;
 
-                    // Получаем название категории
                     var category = _categoryFacade.GetCategory(categoryId);
                     result.Add((categoryId, category.Name, sum));
                 }

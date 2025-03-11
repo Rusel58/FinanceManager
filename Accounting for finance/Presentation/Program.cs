@@ -11,7 +11,7 @@ namespace Accounting_for_finance.presentation
     {
         static void Main(string[] args)
         {
-            // Инициализируем фасады для работы с доменной моделью.
+            // Инициализируем фасады.
             var categoryFacade = new CategoryFacade();
             var bankAccountFacade = new BankAccountFacade();
             var operationFacade = new OperationFacade(bankAccountFacade);
@@ -26,7 +26,6 @@ namespace Accounting_for_finance.presentation
             var ui = new ConsoleUI(categoryFacade, bankAccountFacade, operationFacade, analyticsFacade);
             ui.Run();
 
-            // Перед выходом можно добавить завершающее сообщение.
             ConsoleController.WriteLine("Приложение завершило работу.", ConsoleColor.Green);
         }
     }

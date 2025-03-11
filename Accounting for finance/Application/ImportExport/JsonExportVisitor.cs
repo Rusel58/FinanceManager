@@ -24,7 +24,7 @@ namespace Accounting_for_finance.application.import_export
                 Id = bankAccount.Id,
                 Name = bankAccount.Name,
                 Balance = bankAccount.Balance,
-                Type = "", // для счета тип не используется
+                Type = "",
                 BankAccountId = Guid.Empty,
                 Amount = 0,
                 Date = default,

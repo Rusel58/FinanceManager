@@ -85,12 +85,10 @@ namespace Accounting_for_finance.application.import_export
                 switch (item.EntityType)
                 {
                     case "BankAccount":
-                        // Создаём счёт (в примере игнорируем item.Id, чтобы не ломать существующие конструкторы)
                         _accountFacade.CreateBankAccount(item.Id, item.Name, item.Balance ?? 0m);
                         break;
 
                     case "Category":
-                        // Преобразуем строку type => Income/Expense
                         var catType = item.Type.Equals("income", StringComparison.OrdinalIgnoreCase)
                             ? CategoryType.Income
                             : CategoryType.Expense;
@@ -99,7 +97,6 @@ namespace Accounting_for_finance.application.import_export
                         break;
 
                     case "Operation":
-                        // Преобразуем строку type => Income/Expense
                         var opType = item.Type.Equals("income", StringComparison.OrdinalIgnoreCase)
                             ? OperationType.Income
                             : OperationType.Expense;
@@ -116,7 +113,6 @@ namespace Accounting_for_finance.application.import_export
                         break;
 
                     default:
-                        // Неизвестный тип
                         break;
                 }
             }

@@ -26,6 +26,7 @@
 
 ## Структура проекта
 
+```bash
 Ниже представлена примерная структура каталогов и файлов в проекте:
 Accounting_for_finance/
 ├── Application/
@@ -93,6 +94,7 @@ Accounting_for_finance/
 │   └── BankSystemCsv.csv
 │   └── BankSystemJson.json
 └── └── BankSystemYaml.yaml
+```
 
 ## Функциональные возможности
 

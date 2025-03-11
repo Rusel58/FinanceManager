@@ -14,20 +14,16 @@ namespace Accounting_for_finance.presentation.WriteReadProcesses
             {
                 var csvVisitor = new CsvExportVisitor();
 
-                // Экспорт счетов
                 foreach (var account in bankAccountFacade.GetAllBankAccounts())
                 {
-                    // Если у объектов реализован метод Accept, можно вызвать account.Accept(csvVisitor)
                     csvVisitor.Visit(account);
                 }
 
-                // Экспорт категорий
                 foreach (var category in categoryFacade.GetAllCategories())
                 {
                     csvVisitor.Visit(category);
                 }
 
-                // Экспорт операций
                 foreach (var operation in operationFacade.GetAllOperations())
                 {
                     csvVisitor.Visit(operation);
@@ -50,7 +46,6 @@ namespace Accounting_for_finance.presentation.WriteReadProcesses
             {
                 var jsonExportVisitor = new JsonExportVisitor();
 
-                // Если у ваших доменных объектов реализован метод Accept:
                 foreach (var account in bankAccountFacade.GetAllBankAccounts())
                 {
                     account.Accept(jsonExportVisitor);
