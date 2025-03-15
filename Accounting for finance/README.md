@@ -75,7 +75,7 @@ Accounting_for_finance/
 ├── Presentation/
 │   ├── DataProcess/
 │   │   ├── AnalyticsModule.cs
-|   |   |── BalanceModule.cs
+│   │   ├── BalanceModule.cs
 │   │   ├── BankAcountModule.cs
 │   │   ├── CategoryModule.cs
 │   │   └── OperationModule.cs
@@ -89,8 +89,8 @@ Accounting_for_finance/
 │   │   └── WriteProcesses.cs
 │   ├── ConsoleUI.cs
 │   ├── Program.cs
-|──  README.md
-|──  TestFiles
+│──  README.md
+│──  TestFiles
 │   └── BankSystemCsv.csv
 │   └── BankSystemJson.json
 └── └── BankSystemYaml.yaml
